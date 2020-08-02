@@ -23,7 +23,7 @@ const UploadForm = () => {
       <label>
         <input type="file" onChange={changeHandler} />
         <span>
-          <i className="fas fa-arrow-circle-up"></i>
+          <i className="fa fa-upload" aria-hidden="true"></i>
         </span>
       </label>
       <div className="output">

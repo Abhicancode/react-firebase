@@ -34,6 +34,71 @@ form {
   margin: 30px auto 10px;
   text-align: center;
 }
+.form {
+  max-width: 500px;
+  margin: auto;
+  background-color: #fff;
+}
+.form h1 {
+  color: dodgerblue;
+}
+h2 {
+  font-weight: lighter;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  background: #4ca150;
+  padding: 0 10px;
+  border: 2px solid #4ca150;
+  margin-left: 10px;
+  transition: 0.5s ease-out;
+}
+a:hover {
+  padding: 10px 5px;
+  font-size: smaller;
+}
+.sign-in {
+  border: 2px solid dodgerblue;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.icon {
+  min-width: 50px;
+  padding: 10px;
+  background: dodgerblue;
+  color: #fff;
+  text-align: center;
+}
+.input-field {
+  padding: 10px;
+  width: 100%;
+  outline: none;
+}
+.input-field:focus {
+  border: 3px solid dodgerblue;
+}
+.btn {
+  width: 100%;
+  padding: 16px 20px;
+  background-color: #4ca150;
+  color: #fff;
+  font-size: larger;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  opacity: 0.9;
+}
+.btn:hover {
+  opacity: 1;
+}
 label input {
   height: 0;
   width: 0;
